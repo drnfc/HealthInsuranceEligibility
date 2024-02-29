@@ -18,6 +18,7 @@
     in rec {
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
+          qt5.full #needed for me to render plots
           (python3.withPackages (python-pkgs: with python-pkgs; [
             jupyter
             matplotlib
