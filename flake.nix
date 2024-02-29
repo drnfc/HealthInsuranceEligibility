@@ -19,12 +19,11 @@
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
           qt5.full #needed for me to render plots
-          (python3.withPackages (python-pkgs: with python-pkgs; [
+          (python311.withPackages (python-pkgs: with python-pkgs; [
             jupyter
             matplotlib
             numpy
             pandas
-            pathlib
           ]))
           zsh
         ];
