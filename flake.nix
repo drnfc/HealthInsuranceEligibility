@@ -24,6 +24,7 @@
             matplotlib
             numpy
             pandas
+            pathlib
           ]))
           zsh
         ];
