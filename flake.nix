@@ -23,6 +23,7 @@
             jupyter
             matplotlib
             numpy
+            pandas
           ]))
           zsh
         ];
