@@ -24,11 +24,13 @@
             matplotlib
             numpy
             pandas
+            scikit-learn
+            seaborn
           ]))
-          zsh
+          sqlite
         ];
         shellHook = ''
-          zsh
+          ${pkgs.zsh}/bin/zsh
           exit
         '';
       };
