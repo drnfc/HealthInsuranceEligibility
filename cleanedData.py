@@ -23,3 +23,7 @@ for column in df.columns:
 # Reprints
 null_values = df.isnull().sum()
 print(null_values)
+
+df['State'] = df['State'].str.strip()
+
+print(df)
