@@ -115,13 +115,13 @@ sns.catplot(
 plt.savefig("MedicaidBarPlotByStates.png", bbox_inches="tight")
 plt.show()
 
-sns.barplot(data=bars, orient="h")
+sns.barplot(data=bars)
 plt.xlabel("Year")
 plt.ylabel("Percentage of Population Uninsured (in millions)")
 plt.savefig("barGraph.png", bbox_inches="tight")
 plt.show()
 
-sns.barplot(data=bars2, orient="h")
+sns.barplot(data=bars2)
 plt.xlabel("Year")
 plt.ylabel("Number of Population on Medicaid (in millions)")
 plt.savefig("medicadeBarGraph.png", bbox_inches="tight")
